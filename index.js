@@ -17,7 +17,6 @@ module.exports = exports = function(mongoose) {
   Types.Array.prototype.jsonSchema =
   Types.DocumentArray.prototype.jsonSchema = types.array_jsonSchema;
 
-  Types.Embedded.prototype.jsonSchema =
   Types.Mixed.prototype.jsonSchema = types.mixed_jsonSchema;
 
   mongoose.Schema.prototype.jsonSchema = schema_jsonSchema;
